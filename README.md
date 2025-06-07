@@ -12,6 +12,7 @@ This is a redesign of the SIIU mobile application.
 ## Screenshots
 
 <div style="display: flex; justify-content: space-around; gap: 20px;">
+<<<<<<< HEAD
   <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60" alt="Design in Figma" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
     <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">✨ Diseño en Figma ✨</figcaption>
@@ -19,6 +20,15 @@ This is a redesign of the SIIU mobile application.
   <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4" alt="Design on iPhone" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
     <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">📱 Diseño en iPhone 📱</figcaption>
+=======
+  <figure>
+    <img src="https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60" alt="Design in Figma" style="width: 300px; height: 500px; object-fit: cover;">
+    <figcaption style="text-align: center;">Diseño en Figma</figcaption>
+  </figure>
+  <figure>
+    <img src="https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4" alt="Design on iPhone" style="width: 300px; height: 500px; object-fit: cover;">
+    <figcaption style="text-align: center;">Diseño en iPhone</figcaption>
+>>>>>>> 7a717ed085c45aefc77856b7f7cbe28dc09bb171
   </figure>
 </div>
 
@@ -48,4 +58,7 @@ To run this project locally, follow these steps:
 - React Native
 - Expo
 - NativeWind (Tailwind CSS for React Native)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a717ed085c45aefc77856b7f7cbe28dc09bb171
