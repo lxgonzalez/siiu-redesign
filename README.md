@@ -15,7 +15,7 @@ Esta es una aplicación móvil de rediseño del SIIU.
 ![Diseño en Figma](https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60)
 
 ### Diseño en iPhone
-![Diseño en iPhone](https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4)
+![Diseño en iPhone](![diseno](https://github.com/user-attachments/assets/cb51f8fa-09e1-457a-a0b4-9bb00ff4a712)
 
 ## Instalación
 
