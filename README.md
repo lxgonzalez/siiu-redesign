@@ -9,7 +9,13 @@ This is a redesign of the SIIU mobile application.
 - Weekly news section
 - Bottom navigation bar
 
-## Screenshot
+## Screenshots
+
+### Design in Figma
+![image](https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60)
+
+### Design on iPhone
+![image](https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4)
 
 ## Installation
 
