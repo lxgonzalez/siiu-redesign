@@ -9,7 +9,18 @@ This is a redesign of the SIIU mobile application.
 - Weekly news section
 - Bottom navigation bar
 
-## Screenshot
+## Screenshots
+
+<div style="display: flex; justify-content: space-around; gap: 20px;">
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60" alt="Design in Figma" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">✨ Diseño en Figma ✨</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4" alt="Design on iPhone" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">📱 Diseño en iPhone 📱</figcaption>
+  </figure>
+</div>
 
 ## Installation
 
@@ -17,7 +28,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/lxgonzalez/siiu-redesign
    ```
 2. Navigate to the project directory:
    ```bash
@@ -37,3 +48,4 @@ To run this project locally, follow these steps:
 - React Native
 - Expo
 - NativeWind (Tailwind CSS for React Native)
+
