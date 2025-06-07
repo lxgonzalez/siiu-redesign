@@ -1,51 +1,54 @@
-# SIIU Redesign
+# Rediseño de SIIU
 
-This is a redesign of the SIIU mobile application.
+Esta es una aplicación móvil de rediseño del SIIU.
 
-## Features
+## Características
 
-- User profile 
-- Direct access cards
-- Weekly news section
-- Bottom navigation bar
+- Perfil de usuario con medallas
+- Tarjetas de acceso directo
+- Sección de noticias semanales
+- Barra de navegación inferior
 
-## Screenshots
+## Capturas de pantalla
 
-<div style="display: flex; justify-content: space-around; gap: 20px;">
-  <figure style="text-align: center;">
-    <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">✨ Diseño en Figma ✨</figcaption>
-    <img src="https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60" alt="Design in Figma" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-  </figure>
-  <figure style="text-align: center;">
-    <figcaption style="font-size: 1.1em; font-weight: bold; margin-top: 10px;">📱 Diseño en iPhone 📱</figcaption>
-    <img src="https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4" alt="Design on iPhone" style="max-width: 300px; max-height: 500px; object-fit: contain; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-  </figure>
-</div>
+### Diseño en Figma
+![Diseño en Figma](https://github.com/user-attachments/assets/8f2bbf85-b8cf-42a6-b745-6b472b998a60)
 
-## Installation
+### Diseño en iPhone
+![Diseño en iPhone](https://github.com/user-attachments/assets/cb826034-0c1f-40f0-93f6-7c3c06d5c6d4)
 
-To run this project locally, follow these steps:
+## Instalación
 
-1. Clone the repository:
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
    ```bash
-   git clone https://github.com/lxgonzalez/siiu-redesign
+   git clone [url_del_repositorio]
    ```
-2. Navigate to the project directory:
+2. Navega al directorio del proyecto:
    ```bash
    cd siiu-redesign
    ```
-3. Install dependencies:
+3. Instala las dependencias:
    ```bash
-   npm install # or yarn install or bun install
+   npm install # o yarn install o bun install
    ```
-4. Run the application:
+4. Ejecuta la aplicación:
    ```bash
-   npm start # or yarn start or bun start
+   npm start # o yarn start o bun start
    ```
 
-## Technologies Used
+## Tecnologías utilizadas
 
 - React Native
 - Expo
-- NativeWind (Tailwind CSS for React Native)
+- NativeWind (Tailwind CSS para React Native)
+
+## Contribución
+
+No dudes en contribuir a este proyecto. Por favor, abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
 
