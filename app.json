@@ -37,6 +37,19 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "23ddbd78-77fd-49e0-bdc5-526858afbd85"
+      }
+    },
+    "owner": "lxgonzalez",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/23ddbd78-77fd-49e0-bdc5-526858afbd85"
     }
   }
 }
