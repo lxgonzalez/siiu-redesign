@@ -4,7 +4,7 @@ import { BlurView } from "expo-blur";
 import React, { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import DropdownMenu from "./ui/DropdownMenu";
-import SvgSapientia from "./ui/SvgSapientia";
+import SvgSapientia from "./ui/svg/SvgSapientia";
 
 type EntypoIconName =
   | "menu"

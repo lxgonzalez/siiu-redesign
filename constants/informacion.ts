@@ -1,6 +1,6 @@
 export const Information = {
   photo_url: require("@/assets/images/perfil.webp"),
-  name: "Luis Gonzalez",
+  name: "Ana Paula López Sánchez",
   carrera: "Sistemas de Información",
   medallas: [
     {
