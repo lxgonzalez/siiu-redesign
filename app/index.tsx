@@ -1,13 +1,12 @@
 import { Colors } from "@/constants/Colors";
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { useState } from "react";
+import { useRouter } from "expo-router";
 import { ImageBackground, StyleSheet, View } from "react-native";
 import Accesos from "./components/Accesos";
-import CarnetModal from "./components/CarnetModal";
 import Perfil from "./components/Perfil";
 
-export default function Index() {
-  const [showCarnet, setShowCarnet] = useState(false);
+export default function Home() {
+  const router = useRouter();
 
   return (
     <View style={styles.container}>
@@ -21,7 +20,7 @@ export default function Index() {
         size={50}
         color={Colors.secondary_100}
         style={{ position: "absolute", top: 60, left: 20, zIndex: 2 }}
-        onPress={() => setShowCarnet(true)}
+        onPress={() => router.push("/carnet")}
       />
       <ImageBackground
         source={require("@/assets/images/fondo-uce.webp")}
@@ -31,9 +30,6 @@ export default function Index() {
       <Perfil />
       <View style={styles.relleno}></View>
       <Accesos />
-      {showCarnet && (
-        <CarnetModal visible={showCarnet} onClose={() => setShowCarnet(false)} />
-      )}
     </View>
   );
 }

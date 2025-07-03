@@ -1,6 +1,7 @@
 import { Colors } from "@/constants/Colors";
 import { Entypo } from "@expo/vector-icons";
 import { BlurView } from "expo-blur";
+import { usePathname, useRouter } from "expo-router";
 import React, { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import DropdownMenu from "./ui/DropdownMenu";
@@ -34,16 +35,22 @@ function MenuIcon({ name, color, text, textColor, onPress, style }: MenuIconProp
 
 export default function BottomNavBar() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
-  const [active, setActive] = useState<'home' | 'menu'>('home');
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Solo activo si el menú está abierto o si es la home
+  const isMenuActive = isDropdownVisible;
+  const isHomeActive = pathname === "/";
 
   const handleMenuPress = () => {
     setDropdownVisible(!isDropdownVisible);
-    setActive(isDropdownVisible ? 'home' : 'menu');
   };
 
   const handleHomePress = () => {
     setDropdownVisible(false);
-    setActive('home');
+    if (!isHomeActive) {
+      router.replace("/");
+    }
   };
 
   return (
@@ -51,9 +58,9 @@ export default function BottomNavBar() {
       <BlurView style={styles.menu} intensity={100} tint="extraLight">
         <MenuIcon
           name="menu"
-          color={active === 'menu' ? Colors.primary : Colors.secondary}
+          color={isMenuActive ? Colors.primary : Colors.secondary}
           text="Menú"
-          textColor={active === 'menu' ? Colors.primary : Colors.secondary}
+          textColor={isMenuActive ? Colors.primary : Colors.secondary}
           onPress={handleMenuPress}
         />
         <View style={styles.menu_sapientia}>
@@ -61,9 +68,9 @@ export default function BottomNavBar() {
         </View>
         <MenuIcon
           name="home"
-          color={active === 'home' ? Colors.primary : Colors.secondary}
+          color={isHomeActive ? Colors.primary : Colors.secondary}
           text="Home"
-          textColor={active === 'home' ? Colors.primary : Colors.secondary}
+          textColor={isHomeActive ? Colors.primary : Colors.secondary}
           onPress={handleHomePress}
         />
       </BlurView>
